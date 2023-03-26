@@ -1,0 +1,27 @@
+
+body {
+    margin: auto;
+    padding: auto;
+    background-color: antiquewhite;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+
+.image-banner {
+  display: flex;
+  background-image: url(../images/computers-bright.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:right;
+  min-height: 85vh;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.image-banner div {
+    flex: 0, 0, 90%;
+}
