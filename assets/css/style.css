@@ -7,6 +7,8 @@ body {
 
 header {
     display: flex;
+    padding: 0%;
+    margin: 3%;
     justify-content: space-between;
     background-color: lightgray;
 }
@@ -14,14 +16,36 @@ header {
 .image-banner {
   display: flex;
   background-image: url(../images/computers-bright.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position:right;
-  min-height: 85vh;
+  background-position:center;
+  height: 1500px;
   justify-content: flex-end;
   text-align: right;
 }
 
-.image-banner div {
-    flex: 0, 0, 90%;
+h2 {
+    color: antiquewhite;
 }
+
+
+.work-box1 {
+    
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.workk-box1 {
+    object-fit: cover;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    width: 300px;
+
+  }
+  
